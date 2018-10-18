@@ -3,6 +3,7 @@
 
 Check the tests directory, the rest of the project is a standart vue-cli output, I added a file named tests/config.js,
 and I try to import it in tests/e2e/test.js and simply console.log it's content, the console throws the following error:
+  
   import config from '../../config';
        ^^^^^^
 
