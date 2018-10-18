@@ -4,6 +4,7 @@
 Check the tests directory, the rest of the project is a standart vue-cli output, I added a file named tests/config.js,
 and I try to import it in tests/e2e/test.js and simply console.log it's content, the console throws the following error:
   
+  ```
   import config from '../../config';
        ^^^^^^
 
@@ -18,7 +19,7 @@ and I try to import it in tests/e2e/test.js and simply console.log it's content,
       at Function.Module._load (internal/modules/cjs/loader.js:530:3)
       at Module.require (internal/modules/cjs/loader.js:637:17)
       at require (internal/modules/cjs/helpers.js:20:18)
-
+  ```
 
 
 ## Project setup
